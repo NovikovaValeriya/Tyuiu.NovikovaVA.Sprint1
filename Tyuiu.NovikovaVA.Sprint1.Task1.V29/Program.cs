@@ -21,12 +21,12 @@ namespace Tyuiu.NovikovaVA.Sprint1.Task1.V29
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            double a, b,c;
+            double a, b, c;
 
             Console.WriteLine("Введите значение A:");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите значение B:");
-            b= Convert.ToDouble(Console.ReadLine());
+            b = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите значение C:");
             c = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
@@ -34,6 +34,6 @@ namespace Tyuiu.NovikovaVA.Sprint1.Task1.V29
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.Calculate(a, b, c));
             Console.ReadLine();
-        }  
+        }
     }
 }
