@@ -31,7 +31,7 @@ namespace Tyuiu.NovikovaVA.Sprint1.Task4.V28
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(" cos(60*pi / 2) / Exp(2 * x + y) = "+Math.Round(ds.Calculate(x,y),3));
+            Console.WriteLine(" cos(60*pi / 2) / Exp(2 * x + y) = "+ds.Calculate(x,y));
             Console.ReadKey();
         }
     }
